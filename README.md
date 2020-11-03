@@ -76,6 +76,14 @@ Use the below commands to run the Unit Tests:
 npm test
 ```
 
+or 
+
+```
+npm run test
+```
+
+
+
 
 
 ## API Reference

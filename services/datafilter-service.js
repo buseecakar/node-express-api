@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
  */
 async function mongodbConnection(){
     const uri ="mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true";
-    const dbconn = await MongoClient.connect(uri, { useUnifiedTopology: true , nativeParser: true});
+    const dbconn = await MongoClient.connect(uri, { useUnifiedTopology: true});
     var dbo = await dbconn.db("getir-case-study");
     return  dbo.collection("records");
   }
