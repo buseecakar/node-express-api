@@ -17,7 +17,7 @@ This project can filter data from database, when you send necessary parameters.
   - [API Reference](#api-reference)
     - [1. Url:](#1-Url)
       - [1.1. POST /api/data-filter](#11-post-api-data-filter)
-     
+  - [Deploy](#deploy)   
 
 
 ## Getting Started
@@ -83,13 +83,15 @@ npm run test
 ```
 
 
-
-
-
 ## API Reference
 
 ### 1. Url
 
 #### 1.1. POST /api/data-filter
+
+
+## Deploy
+
+https://node-express-api-v0.herokuapp.com/api/data-filter
   
 

@@ -13,7 +13,7 @@ describe('/POST data-filter-service test', () => {
             endDate: '2016-01-30',
             minCount: 2700,
             maxCount: 3000
-        }
+        };
         chai.request(server).post('/api/data-filter').send(reqBody).end((err, res) => {
             res.should.have.status(200);
             res.body.should.be.a('object');
