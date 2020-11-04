@@ -66,12 +66,12 @@ async function isParameterControl(reqBody) {
     if (!reqBody.startDate || reqBody.startDate == '' || !reqBody.endDate || reqBody.endDate == '') {
         errorObj.status = false;
         errorObj.msg = 'startDate and endDate is not empty!';
-        return errorObj
+        return errorObj;
     }
     if (!reqBody.minCount || !reqBody.maxCount) {
         errorObj.status = false;
         errorObj.msg = 'minCount and maxCount is not empty!';
-        return errorObj
+        return errorObj;
     }
 
     errorObj.status = true;
