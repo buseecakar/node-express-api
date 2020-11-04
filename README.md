@@ -92,6 +92,8 @@ npm run test
 
 ## Deploy
 
-https://node-express-api-v0.herokuapp.com/api/data-filter
+https://node-express-api-v0.herokuapp.com/ deployed to Heroku
+
+branch -> main
   
 
