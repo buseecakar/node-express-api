@@ -19,9 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// POST data filter 
 app.post('/api/data-filter', indexRouter.router);
-//  app.use('/', indexRouter);
-
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

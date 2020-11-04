@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 
 /**
- * it is connecting mongodb.
+ * MongoDb connection provided
  */
 async function mongodbConnection(){
     const uri ="mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true";
@@ -18,8 +18,8 @@ async function mongodbConnection(){
 
 /**
  * 
- * @param {*} reqBody  this is object
- * @returns filter data based on date and count 
+ * @param {*} reqBody this is request body object
+ * @returns function that filters data by date and count 
  */
 async function dataFilter(reqBody) {
     try {
@@ -59,7 +59,7 @@ async function dataFilter(reqBody) {
 /**
  * 
  * @param {*} reqBody  this is request body object
- * @description  it is checked request parameters.
+ * @description It is the function that controls the request parameters
  */
 async function isParameterControl(reqBody) {
     const errorObj = {};

@@ -35,7 +35,7 @@ Mongodb must be installed "npm install mongodb" with the command.
 
 To clone project, run the below command:
 
-    git clone https://github.com/buseecakar/node-express-api
+    git clone https://github.com/buseecakar/node-express-api.git
              
 After succesfully cloning the project, run the below command to checkout to the desired branch:
 

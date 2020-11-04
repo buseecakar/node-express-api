@@ -17,15 +17,8 @@ async function dataFilterRouter(req, res, next) {
     throw error;
   }
 }
-
-/* GET home page. */
+/* POST data filter */
 router.post('/api/data-filter', dataFilterRouter);
 
 module.exports = { router };
 
-// /* GET home page. */
-// router.get('/', (req, res, next) => {
-//   res.render('index', { title: 'Express' });
-// });
-
-// module.exports = router;
